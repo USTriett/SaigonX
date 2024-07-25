@@ -20,13 +20,17 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: c3747210b64651e4f89b60c9b6030eca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoginScene.unity
     guid: 2f2ce70b8d3f02d4eb758d69d61754e3
+  - enabled: 1
+    path: Assets/Scenes/TankShooterScene.unity
+    guid: 3d027d47fc0d02a419f98670970bce7d
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0a42af00d6d7cd547904ac703e4109cd, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d5783637da61f2842bfeb7a6d1503f0b, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: e38c8c428310c71488b8e099e5a7e468, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a9b23ce327f35864b9fc57f563424fd1, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: c3db689c7e267da4e93af58aac308a3b, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 99245043a7dbc104eb7f78b035e3ca60, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5ac6a271930df904a8f24e6a58cf2a5f, type: 2}

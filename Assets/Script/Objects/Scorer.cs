@@ -7,7 +7,7 @@ using UnityEngine;
 public class Scorer : MonoBehaviour
 {
     private static int score = 0;
-    private TextMeshProUGUI _text;
+    private static TextMeshProUGUI _text;
 
     private void OnEnable()
     {
@@ -21,7 +21,7 @@ public class Scorer : MonoBehaviour
         ZombieController.RemoveDeathEventListener(IncreaseScore);
     }
 
-    private void IncreaseScore()
+    public static void IncreaseScore()
     {
         score = int.Parse(_text.text) + 1;
         _text.text = score.ToString();

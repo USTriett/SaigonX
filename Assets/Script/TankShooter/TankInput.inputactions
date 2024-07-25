@@ -1,0 +1,54 @@
+{
+    "name": "TankInput",
+    "maps": [
+        {
+            "name": "HoldScreen",
+            "id": "61cc5c66-73a4-4a12-b40e-09878f0105c4",
+            "actions": [
+                {
+                    "name": "End",
+                    "type": "PassThrough",
+                    "id": "8c61ad0a-ebd8-4f8a-bba1-145aaa6d8631",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Start",
+                    "type": "PassThrough",
+                    "id": "dc6064cc-294f-4389-9ab9-f94f7547f948",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.01)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ad6a7d27-517f-4a7d-9a0c-a0ef012ca4ee",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "End",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa992c1b-6bfa-4277-85b1-471f097efb92",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

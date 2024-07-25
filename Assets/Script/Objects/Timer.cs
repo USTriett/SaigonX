@@ -19,6 +19,7 @@ public class Timer : MonoBehaviour
         _timeDisplay = GetComponent<TextMeshProUGUI>();
         _timeDisplay.text = _startTime.ToString();
         _origin = _startTime;
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
